@@ -1,7 +1,7 @@
 import math
 import numpy as np
 
-def get_result(x, m):
+def get_result(x):
     """Shekel's foxholes function
 
     Args:
@@ -25,7 +25,7 @@ def get_result(x, m):
     c = np.array([0.1, 0.2, 0.2, 0.4, 0.4, 0.6, 0.3, 0.7, 0.5, 0.5])
     result = 0
 
-    for i in range(m):
+    for i in range(10):
         result += 1 / (np.dot(np.array(x) - a[i], np.array(x) - a[i]) + c[i])
 
     return -result
