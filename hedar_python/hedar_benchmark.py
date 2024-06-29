@@ -5,6 +5,8 @@ import numpy as np
 68 problem test example
 """
 
+problems2d = [0, 4, 5, 6, 7, 8, 9, 11, 15, 16, 17, 23, 24, 28, 29, 38, 42, 46, 53, 54, 58, 64]
+
 
 def get_problems_option(n):
     """
